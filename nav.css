@@ -1,0 +1,20 @@
+nav{ /***lager nav baren mobilvenlig***/ 
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  background-color: lightblue;
+  color: white;
+  flex-basis: 100px;
+  padding: 20px;
+  text-align: center;
+
+}
+@media (max-width: 600px){
+  nav{
+    flex-direction: column;
+  }
+  nav a{
+    border-bottom: solid black;
+  }
+}
